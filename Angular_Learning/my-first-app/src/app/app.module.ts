@@ -10,6 +10,7 @@ import { FilterPipe } from './pipes/filter.pipe';
 import { ReverseStringPipe } from './pipes/reverse-string.pipe';
 import { SortPipe } from './pipes/sort.pipe';
 
+
 @NgModule({
   declarations: [
     AppComponent,

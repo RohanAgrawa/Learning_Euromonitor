@@ -6,9 +6,5 @@ import {Component, EventEmitter, Output} from '@angular/core';
   styleUrl: './header.component.css'
 })
 export class HeaderComponent {
-  collapsed = true;
-  @Output() selectedTab = new EventEmitter<string>();
-  onSelect(link : string){
-    this.selectedTab.emit(link);
-  }
+
 }
